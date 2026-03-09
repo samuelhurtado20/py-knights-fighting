@@ -15,7 +15,7 @@ def battle(knights_config: dict) -> dict:
     for knight_a, knight_b in pairs:
         power_a = knight_a.power
         power_b = knight_b.power
-        
+
         knight_a.receive_damage(power_b)
         knight_b.receive_damage(power_a)
 
